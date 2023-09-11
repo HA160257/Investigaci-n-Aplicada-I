@@ -1,1 +1,48 @@
+echo "Capítulo 1: Introducción a Git" > indice.txt
+echo "Capítulo 2: Flujo de trabajo básico" >> indice.txt
+echo "Capítulo 3: Repositorios remotos" >> indice.txt
+Comprobar el estado del repositorio nuevamente:
+bash
+Copy code
+git status
+Añadir el archivo indice.txt a la zona de intercambio temporal (staging area):
+bash
+Copy code
+git add indice.txt
+Verificar el estado del repositorio una vez más:
+bash
+Copy code
+git status
+Realizar un commit de los cambios con el mensaje "Añadido índice del libro." y ver el estado del repositorio:
+bash
+Copy code
+git commit -m "Añadido índice del libro."
+git status
+Cambiar el archivo indice.txt con el nuevo contenido:
+bash
+Copy code
+echo "Capítulo 1: Introducción a Git" > indice.txt
+echo "Capítulo 2: Flujo de trabajo básico" >> indice.txt
+echo "Capítulo 3: Gestión de ramas" >> indice.txt
+echo "Capítulo 4: Repositorios remotos" >> indice.txt
+Mostrar los cambios con respecto a la última versión guardada en el repositorio:
+bash
+Copy code
+git diff
+Hacer un commit de los cambios con el mensaje "Añadido capítulo 3 sobre gestión de ramas":
+bash
+Copy code
+git commit -am "Añadido capítulo 3 sobre gestión de ramas"
+Con estos pasos, has configurado Git, creado un repositorio, realizado cambios en un archivo y creado commits para registrar tus cambios.
+
+
+
+
+
+
+
+
+
+
+
 
